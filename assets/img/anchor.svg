@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>A515ADD9-01A3-4A65-B09C-02E969AEBF45</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-Us" transform="translate(-134.000000, -935.000000)">
+            <g id="Professional-Skippers" transform="translate(135.000000, 936.000000)">
+                <polygon id="Fill-1" points="0 42 42 42 42 0 0 0"></polygon>
+                <g id="Group-14" stroke="#23A8CD" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.45">
+                    <path d="M5.34765,20.359325 L5.34765,25.472825 C5.34765,34.116075 12.35465,41.124825 20.99965,41.124825 C29.64465,41.124825 36.6534,34.116075 36.6534,25.472825 L36.6534,20.359325" id="Stroke-2"></path>
+                    <path d="M26.5902,6.4652 C26.5902,9.5522 24.0877,12.0547 21.0007,12.0547 C17.9137,12.0547 15.40945,9.5522 15.40945,6.4652 C15.40945,3.3782 17.9137,0.8757 21.0007,0.8757 C24.0877,0.8757 26.5902,3.3782 26.5902,6.4652 Z" id="Stroke-4"></path>
+                    <line x1="21.000175" y1="12.0554" x2="21.000175" y2="41.12465" id="Stroke-6"></line>
+                    <line x1="14.28385" y1="18.764025" x2="27.7081" y2="18.764025" id="Stroke-8"></line>
+                    <polyline id="Stroke-10" points="0.875175 24.830925 5.348175 20.359675 9.819425 24.830925"></polyline>
+                    <polyline id="Stroke-12" points="32.1804 24.830925 36.6534 20.359675 41.12465 24.830925"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

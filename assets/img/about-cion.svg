@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>About Us Icon</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="About-Us" transform="translate(-134.000000, -935.000000)" stroke="#23A8CD" stroke-width="2.45">
+            <g id="About-Us-Icon" transform="translate(135.000000, 936.000000)">
+                <g id="Group-8" transform="translate(0.875000, 0.875000)">
+                    <path d="M40.250175,20.124825 C40.250175,9.008825 31.239425,-0.000175 20.125175,-0.000175 C9.009175,-0.000175 0.000175,9.008825 0.000175,20.124825 C0.000175,31.239075 9.009175,40.249825 20.125175,40.249825 C31.239425,40.249825 40.250175,31.239075 40.250175,20.124825 Z" id="Stroke-2"></path>
+                    <path d="M32.2,20.124825 C32.2,13.455575 26.79425,8.049825 20.125,8.049825 C13.45575,8.049825 8.05,13.455575 8.05,20.124825 C8.05,26.794075 13.45575,32.199825 20.125,32.199825 C26.79425,32.199825 32.2,26.794075 32.2,20.124825 Z" id="Stroke-4"></path>
+                    <path d="M8.431325,17.1143 C14.090825,17.3628 14.216825,23.14305 20.124825,23.14305 C26.032825,23.14305 26.158825,17.3628 31.818325,17.1143" id="Stroke-6"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

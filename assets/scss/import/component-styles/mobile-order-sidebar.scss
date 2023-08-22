@@ -1,0 +1,214 @@
+@import "../variables";
+
+.mobile-order_sidebar {
+	display: none;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 16px 0 rgba(0,0,0,0.16);
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	z-index: 99;
+    transform: translateY(440px);
+    transition: .7s all ease;
+	&.active {
+    	transform: translateY(0);
+	}
+	.mobile-order_top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+		border-bottom: 2px solid #c2c2c2;
+	}
+	.order-top_left {
+		padding-left: 60px;
+		padding-right: 15px;
+		width: calc(100% - 115px);
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		border-right: 2px solid #c2c2c2;
+		position: relative;
+		&.active {
+			&:before {
+				transform: rotate(-90deg);
+			}
+		}
+		&:before {
+			display: block;
+			content:'';
+			width: 44px;
+			height: 44px;
+			border-radius: 12px;
+			background: #F6F6F6 url('../img/arrow-left-blue.svg') center no-repeat;
+			background-size: 80%;
+			position: absolute;
+			left: 0;
+			top: 0;
+			transform: rotate(90deg);
+			transition: .7s all ease;
+		}
+		.top-left_row {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 100%;
+			p {
+				font-size: 16px;
+				font-weight: 500;
+				line-height: 23px;
+			}
+			.tr1 {
+				color: #1F283C;
+				margin-bottom: 2px;
+			}
+			.tr2 {
+				color: #23A8CD;
+				margin-bottom: 2px;
+			}
+			.tr3 {
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 20px;
+			}
+			.tr4 {
+				font-size: 14px;
+				font-weight: 400;
+				line-height: 20px;
+			}
+		}
+	}
+	.to-checkout_button {
+		display: block;
+		width: 100px;
+		font-size: 15px;
+		font-weight: 500;
+		background: #23A8CD;
+		text-align: center;
+		line-height: 20px;
+		padding: 12px 0;
+		border-radius: 12px;
+		color: #fff;
+		box-shadow: 0 8px 24px 0 rgba(24,120,147,0.24);
+		&:nth-child(2) {
+			margin-top: 5px;
+		}
+		&.disabled {
+			background: #a6aebe;
+		}
+	}
+	.details-title {
+		font-size: 14px;
+		line-height: 20px;
+		margin-bottom: 7px;
+	}
+	.mobile-order_details--wrap {
+		padding: 13px 17px;
+		border: 2px solid #c2c2c2;
+  		border-radius: 4px;
+  		display: flex;
+  		justify-content: space-between;
+  		align-items: center;
+  		margin-bottom: 20px;
+  		.details-left {
+  			width: calc(100% - 70px);
+  			p {
+  				line-height: 23px;
+  				color: #1F283C;
+  				font-weight: 500;
+  				margin-bottom: 8px;
+  				&:last-child {
+  					margin-bottom: 0;
+  				}
+  				span {
+  					color: #797C84;
+  				}
+  			}
+  		}
+  		.edit-order {
+  			display: block;
+  			width: 66px;
+  			border-radius: 12px;
+  			background-color: #F6F6F6;
+  			padding: 12px 0;
+  			font-size: 15px;
+  			font-weight: 500;
+  			text-align: center;
+  			color: #23A8CD;
+  			line-height: 20px;
+  		}
+	}
+	.order-details_bottom {
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+		border-bottom: 2px solid #c2c2c2;
+	}
+	.details-bottom_row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 8px;
+		&:last-child {
+			margin-bottom: 0;
+			p {
+				&:first-child {
+					font-weight: 500;
+					color: #1F283C;
+				}
+				&:nth-child(2) {
+					color: #23A8CD;
+				}
+			}
+		}
+		p {
+			line-height: 23px;
+			&:nth-child(2) {
+				font-weight: 500;
+				color: #1F283C;
+			}
+		}
+	}
+	.bottom-details {
+		font-size: 13px;
+		line-height: 21px;
+		text-align: center;
+	}
+}
+
+.mobile_charter-type--dropdown {
+	display: block;
+	position: relative;
+	top: 0;
+	padding: 0;
+	box-shadow: none;
+	.chooser-item {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.mobile-order_sidebar {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.mobile-order_sidebar {
+		transform: translateY(465px);
+		.order-top_left {
+			width: calc(100% - 95px);
+			.top-left_row {
+				p {
+					font-size: 14px;
+				}
+			}
+		}
+		.to-checkout_button {
+			width: 80px;
+		}
+	}
+}

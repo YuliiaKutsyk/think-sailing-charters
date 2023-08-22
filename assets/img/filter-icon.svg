@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>9D6C80EC-088C-4F5B-9FD2-3CAE76CC3D57</title>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Search" transform="translate(-317.000000, -140.000000)">
+            <g id="Group" transform="translate(0.000000, 122.000000)">
+                <g id="Group-2" transform="translate(311.000000, 12.000000)">
+                    <g id="Filter" transform="translate(6.000000, 6.000000)">
+                        <polygon id="Fill-1" points="0 32 31.999 32 31.999 0 0 0"></polygon>
+                        <line x1="12.5502" y1="7.9502" x2="27.5002" y2="7.9502" id="Stroke-2" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="4.4999" y1="7.9502" x2="7.9499" y2="7.9502" id="Stroke-3" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="24.0502" y1="16" x2="27.5002" y2="16" id="Stroke-4" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="4.4999" y1="16" x2="19.4499" y2="16" id="Stroke-5" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="16.06" y1="24.0498" x2="27.5" y2="24.0498" id="Stroke-6" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <line x1="4.4999" y1="24.0498" x2="11.3999" y2="24.0498" id="Stroke-7" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></line>
+                        <g id="Group-14" transform="translate(7.000000, 5.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4">
+                            <path d="M0.9501,2.9502 C0.9501,4.2202 1.9801,5.2502 3.2501,5.2502 C4.5201,5.2502 5.5501,4.2202 5.5501,2.9502 C5.5501,1.6792 4.5201,0.6502 3.2501,0.6502 C1.9801,0.6502 0.9501,1.6792 0.9501,2.9502 Z" id="Stroke-8"></path>
+                            <path d="M12.4501,11 C12.4501,12.271 13.4801,13.3 14.7501,13.3 C16.0201,13.3 17.0501,12.271 17.0501,11 C17.0501,9.73 16.0201,8.7 14.7501,8.7 C13.4801,8.7 12.4501,9.73 12.4501,11 Z" id="Stroke-10"></path>
+                            <path d="M4.3998,19.0498 C4.3998,20.3208 5.4298,21.3498 6.6998,21.3498 C7.9698,21.3498 8.9998,20.3208 8.9998,19.0498 C8.9998,17.7798 7.9698,16.7498 6.6998,16.7498 C5.4298,16.7498 4.3998,17.7798 4.3998,19.0498 Z" id="Stroke-12"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

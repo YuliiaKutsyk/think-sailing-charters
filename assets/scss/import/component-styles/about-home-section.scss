@@ -1,0 +1,61 @@
+@import "../variables";
+
+.about-home {
+	position: relative;
+	padding: 130px 0;
+}
+
+.about-home_bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.about-home_content {
+	max-width: 570px;
+	width: 100%;
+	color: #fff;
+	h4 {
+		font-size: 36px;
+		line-height: 50px;
+		margin-bottom: 15px;
+		color: #fff;
+	}
+	.undertitle {
+		font-size: 22px;
+		font-weight: 500;
+		line-height: 30px;
+		margin-bottom: 25px;
+	}
+	.text {
+		font-size: 17px;
+		line-height: 26px;
+		margin-bottom: 25px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.about-home {
+		padding: 50px 0;
+	}
+	.about-home_content {
+		h4 {
+			font-size: 26px;
+			line-height: 36px;
+			margin-bottom: 15px;
+		}
+		.undertitle {
+			font-size: 21px;
+			line-height: 28px;
+			margin-bottom: 15px;
+		}
+		.text {
+			font-size: 16px;
+			line-height: 23px;
+			margin-bottom: 15px;
+		}
+	}
+}

@@ -1,0 +1,1320 @@
+/*
+Theme Name: Sailing Charters 2023
+Author: Think.mt
+Author URI: Think.mt
+Version: 2.0
+Text Domain: sailing-charters-2023
+*/
+
+@import url('css/main.css');
+
+/*--- styles ---*/
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #23a8cd;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #23a8cd transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.food-list_item-q {
+  display: flex;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+.food-list_item-q .minus,
+.food-list_item-q .plus {
+  color: #a6aebe;
+  border: 1px solid #a6aebe;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.food-list_item-q .minus::before {
+  content: '-';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.food-list_item-q .plus::before {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.food-list_item-q input {
+  display: block;
+  width: 32px;
+  border: 0;
+  font-size: 15px;
+  line-height: 20px;
+  color: #1f283c;
+  text-align: center;
+  outline: none !important;
+}
+
+.food-list__item-counter {
+  display: flex;
+  align-items: center;
+}
+
+.food-list__item-top {
+  display: flex;
+  align-items: center;
+  padding-left: 38px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.food-list__item-bot {
+  display: none;
+}
+
+.food-list_item.active .food-list__item-bot {
+  display: block;
+}
+
+.food-list_item.active .food-list__item-top:before {
+  background: #23a8cd url(assets/img/checkout-check.svg) 50% no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  border-color: #23a8cd;
+}
+
+.food-list_item .food-list__item-top:before {
+  display: block;
+  content: "";
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid #DADADA;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.multistep-checkout__step {
+  display: none;
+}
+
+.multistep-checkout__step.active {
+  display: block;
+}
+
+.coupon-inner {
+  margin-bottom: 0 !important;
+}
+
+.to-payment-btn {
+  float: none!important;
+  display: block;
+  width: 320px;
+  border-radius: 12px;
+  background-color: #23a8cd;
+  -webkit-box-shadow: 0 8px 24px 0 rgb(24 120 147 / 24%);
+  box-shadow: 0 8px 24px 0 rgb(24 120 147 / 24%);
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.coupon-inner {
+  border-bottom: 0 !important;
+}
+
+#payment, .wc_payment_methods {
+  position: static !important;
+}
+
+.to-details-btn {
+  cursor: pointer;
+  margin-bottom: 50px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.to-details-btn::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent url(assets/img/arrow-left-blue.svg) 50% no-repeat;
+}
+
+.checkout-menu_content {
+  display: none;
+}
+
+.checkout-menu_content.active {
+  display: block;
+}
+
+.product-details_food .q-text {
+  color: #23a8cd;
+}
+
+.order-sidebar .to-checkout_button {
+  width: 100%;
+  border: none;
+}
+
+table.variations {
+  display: none;
+}
+
+.to-payment-wrapper {
+  margin-bottom: 130px;
+}
+
+.cmp__inner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 330px;
+  max-width: calc(100% - 30px);
+  background: #fff;
+  padding: 35px 25px;
+  padding-bottom: 25px;
+  line-height: 24px;
+  text-align: center;
+  border: 2px solid #DADADA;
+  font-size: 15px;
+  border-radius: 4px;
+  display: none;
+}
+
+.cmp__btn {
+  display: inline-block;
+  padding: 10px 35px;
+  background: #23a8cd;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 15px;
+  cursor:  pointer;
+  transition: .25s;
+  border-radius: 4px;
+}
+
+.cmp__btn:hover {
+  transition: .25s;
+  color: #1f283c;
+}
+
+.cmp__text {
+  text-align: left;
+}
+
+.cmp__close {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.cmp__close::before,
+.woocommerce-error .close-btn::before {
+  content: '';
+  position: absolute;
+  left: calc(50% - 1px);
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background: #23a8cd;
+  display: block;
+}
+
+.cmp__close::after,
+.woocommerce-error .close-btn::after {
+  content: '';
+  position: absolute;
+  top: calc(50% - 1px);
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #23a8cd;
+  display: block;
+}
+
+.mvvwb_showInline .mvvwb_input, .mvvwb_showInline .mvvwb_date_end {
+  display: block !important;
+}
+
+.mvvwb_persons_row, .single-product .product .entry-title, .single-product .product .price, .single-product .product .product_meta, .single-product .product .quantity, .single-product .product .related, .single-product .product .woocommerce-product-details__short-description, .single-product .product .woocommerce-product-gallery, .single-product .product .woocommerce-tabs, .single-product .type-product .mvvwb_persons_row, .single-product .type-product .single_add_to_cart_button, .single-product .woocommerce-notices-wrapper {
+  display: none !important;
+}
+
+.variation-Duration, .variation-EndDate {
+  display: block !important;
+}
+
+.charter-time_multy {
+  position: relative;
+}
+
+.mvvwb_wrap {
+  display: none !important;
+}
+
+.charter-time_single .date-from,
+.charter-time_single .date-to {
+  display: none;
+}
+
+.charter-time_single.multi .date-from
+.charter-time_single.multi .date-to {
+  display: block;
+  font-size: 16px;
+}
+
+.charter-time_single.multi span {
+  display: block;
+  width: 50%;
+  padding: 15px;
+  font-weight: 500;
+  color: #1f283c;
+  font-size: 17px;
+}
+
+.order-sidebar .charter-time_single.multi span:first-child {
+  border-right: 2px solid #DADADA;
+}
+
+.order-sidebar .charter-time_multy.multi span:last-child {
+  border-right: 2px solid #DADADA;
+  position: relative;
+}
+
+.charter-time_single.multi {
+  display: flex;
+  border-top: 2px solid #DADADA;
+  border-bottom: 2px solid #DADADA;
+  cursor: pointer;
+  position: relative;
+  padding: 0;
+}
+
+.charter-time_single.multi span.start-time {
+  display: none;
+}
+
+.order-sidebar .charter-time_single.multi {
+  height: auto !important;
+  line-height: 1;
+}
+
+.home .flatpickr-calendar,
+.page-template-search-tpl .flatpickr-calendar {
+  display: none;
+}
+
+.ty__day-list {
+  display: flex;
+  margin-bottom: 35px;
+  margin-top: 30px;
+}
+
+.ty__day-item {
+  margin-right: 20px;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 5px;
+  transition: .25s;
+}
+
+.ty__day-item:not(.active) {
+  cursor: pointer;
+}
+
+.ty__day-item.active {
+  border-bottom: 2px solid #23a8cd;
+  transition: .25s;
+}
+
+.edit-order_popup {
+  position: static;
+  height: auto;
+}
+
+.ty__popup-daylist {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.ty__popup-dayitem {
+  margin-right: 20px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+  transition: .25s;
+}
+
+.ty__popup-dayitem.active {
+  border-bottom: 2px solid #23a8cd;
+  transition: .25s;
+}
+
+.ty__popup-dayitem:not(.active) {
+  cursor: pointer;
+}
+
+.header-logo .logo-titles .bottom {
+  font-family: Arial;
+}
+
+.contacts-additional_wrap ul {
+  padding-left: 15px;
+}
+
+.contacts-additional_wrap ul li {
+  list-style: initial;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.page-content_default p,
+.page-content_default ol li, .page-content_default ul li {
+  font-size: 15px;
+}
+
+.woocommerce-billing-fields__field-wrapper {
+  position: static;
+  float: left;
+  margin-bottom: 40px;
+}
+
+.cancellation-policy_checkout {
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1400px) {
+  .product-details_food {
+    font-size: 14px;
+  }
+}
+
+.footer-first .column .footer-info_wrap .footer-social .watsap {
+    background: #DADADA url(assets/img/WhatsApp.svg) 50% no-repeat;
+    -webkit-background-size: 30px 30px;
+    background-size: 30px;
+}
+
+.footer-first .column .footer-info_wrap .footer-social a {
+  height: 35px;
+  width: 35px;
+}
+
+.woocommerce table.shop_table {
+  position: static !important;
+}
+
+.checkout-sidebar_message {
+  position: relative;
+  right: 0;
+}
+
+.flatpickr-calendar.unhidden {
+  display: block !important;
+  opacity: 1;
+  top: 135px !important;
+  z-index: 10000;
+}
+
+.mobile-order_form--top {
+  z-index: 9999;
+}
+
+/*.mvvwb_wrap {
+  display: block !important;
+}*/
+
+.flatpickr-calendar {
+  display: none;
+}
+
+.flatpickr-day.hidden {
+  display: block !important;
+}
+
+.main-banner_filter {
+  z-index: 2000;
+}
+
+.rates-tabs_content--item .content-item_row .item-row_element.long {
+  width: auto;
+}
+
+input[type=tel] {
+  padding-left: 55px !important;
+}
+
+.iti__selected-dial-code {
+  display: none !important;
+}
+
+.iti {
+  width: 100%;
+}
+
+.clear {
+  clear: both;
+}
+
+.iti__country-name {
+  display: inline-block !important;
+}
+
+.thankyou-wrap {
+  height: auto;
+  padding: 100px 0;
+}
+
+@media (max-width: 600px) {
+  .thankyou-wrap {
+    padding: 60px 0;
+  }
+}
+
+.edit-order_popup .edit-order_popup--content {
+  padding-bottom: 100px;
+}
+
+.ty-subcat-title {
+  margin-bottom: 15px;
+}
+
+.single-product .woocommerce-error.showed,.single-product  .woocommerce-notices-wrapper {
+  display: block !important;
+}
+
+.single-product .woocommerce-error {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 999;
+  width: 400px;
+  max-width: calc(100% - 30px);
+  background: #fff;
+  padding: 35px 25px;
+  padding-bottom: 25px;
+  line-height: 24px;
+  text-align: center;
+  border: 2px solid #DADADA;
+}
+
+.single-product .woocommerce-error.hided {
+  display: none !important;
+}
+
+.single-product .woocommerce-error::before {
+  content: none;
+}
+
+.woocommerce-error .close-btn {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.woocommerce-error .ok-btn {
+  padding: 10px 35px;
+  background: #23a8cd;
+  color: #fff;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: .25s;
+  border-radius: 4px;
+  display: block;
+  width: 96px;
+}
+
+.ty-sm-title {
+  margin-bottom: 10px;
+}
+
+.rates-nb-block {
+  padding: 50px 60px;
+  background: #f6f6f6;
+}
+
+.rates-nb-btn {
+  display: block;
+  width: 135px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  background-color: #23a8cd;
+  border-radius: 12px;
+  -webkit-box-shadow: 0 8px 24px 0 rgb(24 120 147 / 24%);
+  box-shadow: 0 8px 24px 0 rgb(24 120 147 / 24%);
+  -webkit-transition: all .3s ease;
+  -o-transition: .3s all ease;
+  transition: all .3s ease;
+}
+
+.rates-nb-text {
+  margin-bottom: 30px;
+}
+
+.rates-nb-text > * {
+  margin: 20px 0;
+  line-height: 1.4;
+}
+
+.rates-nb-text h2 {
+  font-size: 24px;
+}
+
+.wpcf7-not-valid-tip {
+  bottom: -20px;
+}
+
+.availability-form .av-form_input .wpcf7-not-valid,
+.contact-form_wrap form .wpcf7-form-control-wrap .wpcf7-not-valid {
+  border: 2px solid #dc3232;
+}
+
+.contact-form_wrap form .wpcf7-form-control-wrap {
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .availability-form .form-more_info {
+    padding-top: 600px;
+  }
+}
+
+.hamburger:after, .hamburger:before {
+  top: 5.5px;
+  height: 2px;
+}
+
+.hamburger:after {
+  top: auto;
+  bottom: 4.5px;
+}
+
+.hamburger {
+  height: 30px;
+}
+
+.hamburger .hamburger-inner {
+  height: 2px;
+}
+
+@media screen and (max-width: 500px) {
+  .availability-wrap .right {
+    top: 770px;
+  }
+
+  .availability-form .form-more_info {
+      padding-top: 600px;
+  }
+}
+
+.ty-back-btn {
+  display: block;
+  width: 135px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  background-color: #23a8cd;
+  border-radius: 12px;
+  -webkit-box-shadow: 0 8px 24px 0 rgb(24 120 147 / 24%);
+  box-shadow: 0 8px 24px 0 rgb(24 120 147 / 24%);
+  -webkit-transition: all .3s ease;
+  -o-transition: .3s all ease;
+  transition: all .3s ease;
+  margin:  0 auto;
+  margin-top: 20px;
+}
+
+.destinations-fields_wrap.flow {
+  height: auto;
+  overflow: visible;
+}
+
+.ty-page.expired .thankyou-wrap h4:before {
+  background: transparent url(assets/img/edit-order-error.svg) 50% no-repeat;
+  height: 85px;
+}
+
+.edit-err-ref {
+  margin-top: 20px;
+  font-size: 14px !important;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .thankyou-wrap h4:before {
+    width: 70px
+  }
+}
+
+.cancellation-policy_checkout .cancellation-policy_checkout--inner .cancellation-policy_checkout--description {
+  height: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .rates-tabs_content--item .content-item_row {
+    padding: 15px 15px 12px;
+  }
+
+  .rates-tabs_content--item .content-item_headers p:last-child, .rates-tabs_content--item .content-item_headers p:nth-child(6), .rates-tabs_content--item .content-item_headers p:nth-child(7), .rates-tabs_content--item .content-item_headers p:nth-child(8) {
+    display: block;
+  }
+
+  .rates-tabs_content--item .content-item_row .item-row_link {
+    display: block;
+    width: 53px;
+  }
+
+  .rates-tabs_content--item .content-item_row .item-row_element {
+    display: block !important;
+  }
+
+  .rates-tabs_content {
+    overflow-x: auto;
+  }
+
+  .rates-tabs_content--item {
+    width: auto;
+    overflow: auto;
+  }
+}
+
+.rates-tabs_content--wrap {
+  min-width: 100%;
+}
+
+.mobile-order_sidebar.active {
+  transform: translateY(0) !important;
+}
+
+.flatpickr-calendar.rangeMode.multiMonth {
+  width: 700px !important;
+}
+
+.flatpickr-calendar .flatpickr-rContainer .dayContainer {
+  justify-content: flex-start;
+}
+
+@media (max-width: 600px) {
+  .flatpickr-calendar.rangeMode.multiMonth {
+    width: 100% !important;
+  }
+
+  .flatpickr-calendar.rangeMode.multiMonth .flatpickr-days {
+    flex-direction:  column;
+  }
+
+  .flatpickr-weekdays .flatpickr-weekdaycontainer:nth-child(2) {
+    display: none;
+  }
+
+  .dayContainer + .dayContainer {
+    box-shadow: 0px -1px 0 #E6E6E6;
+  }
+
+  .flatpickr-innerContainer {
+    height: calc(100% - 20px);
+  }
+}
+
+.rates-additional-text h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.rates-additional-text p {
+  margin-bottom: 5px;
+}
+
+.sc-thank-dest-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  border-bottom: 2px solid #c2c2c2;
+}
+
+.coupon-congrats {
+  display: none !important;
+}
+
+.search-error-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 999;
+  width: 400px;
+  max-width: calc(100% - 30px);
+  background: #fff;
+  padding: 35px 25px;
+  padding-bottom: 25px;
+  line-height: 24px;
+  text-align: center;
+  border: 2px solid #DADADA;
+  display: none;
+}
+
+.search-error-popup .close-btn {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.search-error-popup .close-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #23a8cd;
+}
+
+.search-error-popup .close-btn::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #23a8cd;
+}
+
+.search-error-popup .ok-btn {
+  padding: 10px 35px;
+  background: #23a8cd;
+  color: #fff;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: .25s;
+  border-radius: 4px;
+  display: block;
+  width: 96px;
+}
+
+
+/*.mvvwb_persons_row, .single-product .product .entry-title, .single-product .product .price, .single-product .product .product_meta, .single-product .product .quantity, .single-product .product .related, .single-product .product .woocommerce-product-details__short-description, .single-product .product .woocommerce-product-gallery, .single-product .product .woocommerce-tabs, .single-product .type-product .mvvwb_persons_row, .single-product .type-product .single_add_to_cart_button, .single-product .woocommerce-notices-wrapper {
+  display: block !important;
+}
+
+.mvvwb_wrap {
+  display: block !important;
+}*/
+
+.search-title.empty {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.order-sidebar .charter-passenger.nonbook {
+  border-bottom: 2px solid #c2c2c2;
+}
+
+.checkout-undertitle_info.tomorrow {
+  margin-bottom: 10px;
+}
+
+.charter-boats + .page-bottom_message {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .coupon-wrap {
+    display: block
+  }
+}
+
+iframe[id^=st-] {
+  width: 100%;
+  height: 75px !important;
+}
+
+.woocommerce-checkout #payment iframe[id^=st-] {
+    height: 90px !important;
+}
+
+#ce4wp_save_credit_card_details_checkbox label {
+    color: #797c84;
+}
+
+.contact-form_wrap .wpcf7-spinner {
+  margin: 0 auto;
+  display: block;
+  margin-top: 5px;
+}
+
+.mobile-order_top.non-bookable .order-top_left {
+  width: 34px;
+  padding-left: 43px;
+}
+
+.mobile-order_top.non-bookable .top-left_row {
+  opacity: 0;
+}
+
+.mobile-order_top.non-bookable .top-left_row {
+  opacity: 0;
+}
+
+.mobile-order_top.non-bookable .order-buttons_wrap {
+  width: 100%;
+}
+
+.mobile-order_top.non-bookable .to-checkout_button {
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .availability-form .send-form.wpcf7-submit {
+    margin-bottom: 60px !important;
+  }
+  footer {
+    padding: 30px 0 90px;
+  }
+  .availability-form .form-more_info {
+    padding-top: 680px;
+  }
+  body.overflow .mobile-order_sidebar {
+    display: none !important;
+  }
+  body.overflow .availability-form .send-form.wpcf7-submit {
+    margin-bottom: 0 !important;
+  }
+  .availability-form .form-more_info {
+    padding-top: 680px;
+  }
+  .availability-form p {
+    width: 100%;
+  }
+  .availability-form .send-form.wpcf7-submit {
+    width: 100%;
+  }
+}
+
+.page-template-services .destinations-description_content p, .page-template-fleet .destinations-description_content p {
+  font-size: 19px;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+
+.single-feautures{
+  padding-bottom: 25px;
+}
+
+.charter-type_current{
+  word-wrap: break-word;
+  width: 85%;
+}
+
+.page-bottom_message.sidebar-message.checkout-sidebar_message:last-child {
+  display: none !important;
+}
+
+/* Banner */
+
+.banner.eu-malta, .banner.eu-malta.footer-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #F6F6F6;
+    z-index: 100;
+    display: none;
+}
+
+.banner.eu-malta.footer-banner {
+    border-bottom: 2px solid #c2c2c2;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-first {
+    margin-bottom: 15px;
+}
+
+.banner.eu-malta.footer-banner {
+    position: relative;
+    top: auto;
+    left: auto;
+    display: block !important;
+    z-index: 4;
+}
+
+.banner.eu-malta.footer-banner .container {
+    margin-left: 10px;
+}
+
+body.banner-visible .banner.eu-malta {
+    display: block;
+}
+
+body.banner-visible {
+    margin-top: 72px;
+}
+
+body.banner-visible header {
+    top: 72px;
+}
+
+.banner.eu-malta .inner, .banner.eu-malta.footer-banner .inner {
+    position: relative;
+}
+
+.banner.eu-malta .inner a, .banner.eu-malta.footer-banner .inner a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.banner.eu-malta.footer-banner .inner a {
+    justify-content: flex-start;
+}
+
+.banner.eu-malta.footer-banner .col-md-12 {
+    padding: 0;
+}
+
+.banner.eu-malta .inner button {
+    position: absolute;
+    top: 25px;
+    right: -5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.banner.eu-malta .inner button img {
+    max-width: 14px;
+}
+
+.banner.eu-malta .inner p, .banner.eu-malta.footer-banner .inner p {
+    color: #1F283C;
+    padding: 0 15px;
+}
+
+.banner.eu-malta.footer-banner .inner p:first-child {
+    padding-left: 0;
+}
+
+.banner.eu-malta .inner p img, .banner.eu-malta.footer-banner .inner p img {
+    position: relative;
+    margin: 0 5px;
+    z-index: 10;
+}
+
+.banner.eu-malta.footer-banner .inner p img {
+    max-height: 32px;
+}
+
+/* Checkout page (Payments) */
+
+.wc_payment_methods .payment_box {
+    padding: 0 20px 5px !important;
+    color: #666 !important;
+}
+
+.woocommerce-checkout #payment .wc_payment_methods li {
+    padding: 0 !important;
+    margin-bottom: 20px !important;
+    border: 2px solid #c2c2c2 !important;
+    border-radius: 4px;
+}
+
+.woocommerce-checkout #payment ul.payment_methods li:not(.woocommerce-notice)::before {
+    display: none !important;
+}
+
+.woocommerce-checkout #payment ul.payment_methods li [type="radio"]:checked,
+.woocommerce-checkout #payment ul.payment_methods li [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.woocommerce-checkout #payment ul.payment_methods li [type="radio"]:checked + label,
+.woocommerce-checkout #payment ul.payment_methods li [type="radio"]:not(:checked) + label {
+    position: relative;
+    width: 100%;
+    padding: 18px 40px 18px 60px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+.woocommerce-checkout #payment ul.payment_methods li [type="radio"]:checked + label:before,
+.woocommerce-checkout #payment ul.payment_methods li [type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 14px;
+    width: 26px;
+    height: 26px;
+    border-radius: 100%;
+    background: #23A8CD;
+    border: 2px solid #23A8CD;
+}
+.woocommerce-checkout #payment ul.payment_methods li [type="radio"]:not(:checked) + label:before {
+    background: #fff;
+    border: 2px solid #c2c2c2;
+}
+.woocommerce-checkout #payment ul.payment_methods li [type="radio"]:checked + label:after,
+.woocommerce-checkout #payment ul.payment_methods li [type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: url(assets/img/ico-check-svg.svg) 50% no-repeat;
+    position: absolute;
+    top: 19px;
+    left: 26px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.woocommerce-checkout #payment ul.payment_methods li [type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.woocommerce-checkout #payment ul.payment_methods li [type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.woocommerce-checkout #payment .checkbox_titles {
+    display: none;
+    margin-bottom: 0;
+}
+
+.checkbox_titles .terms-conditions_toggle:before {
+    top: 5px;
+}
+
+.terms-conditions_toggle {
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 12px;
+    position: relative;
+    cursor: pointer;
+    display: none !important;
+}
+
+.terms-conditions_toggle:last-child {
+    display: block !important;
+}
+
+.checkbox_titles .terms-conditions_toggle:before {
+    top: 5px;
+}
+
+.terms-conditions_toggle.active:before {
+    background: #23a8cd url(assets/img/checkout-check.svg) 50% no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    border-color: #23a8cd;
+}
+
+.terms-conditions_toggle:before {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 4px;
+    border: 2px solid #c2c2c2;
+    top: -2px;
+    left: 0;
+}
+
+.page-content_default ul li.errorCallback:before {
+    display: none;
+}
+
+/* End of checkout page (Payments) */
+
+/* Request avail. */
+
+button.request-av-more {
+    display: block;
+    content: "";
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    margin-top: 5px;
+    margin-right: 15px;
+    background: #f6f6f6 url("./assets/img/arrow-left-blue.svg") 50% no-repeat;
+    -webkit-background-size: 80% 80%;
+    background-size: 80%;
+    border: none;
+    outline: none;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition: all .7s ease;
+    -o-transition: .7s all ease;
+    transition: all .7s ease;
+}
+
+button.request-av-more.active {
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+.mobile-order_sidebar .order-buttons_wrap .to-checkout_button {
+    color: #fff !important;
+}
+
+/* End of request avail. */
+
+@media (max-width: 1024px) {
+    body.banner-visible {
+        margin-top: 82px;
+    }
+    body.banner-visible header {
+        top: 82px;
+    }
+    .banner.eu-malta .inner a {
+        padding: 22px 0;
+    }
+    .banner.eu-malta .inner p {
+        font-size: 14px;
+        padding: 0 5px;
+    }
+    .banner.eu-malta .inner button {
+        top: 22px;
+        right: -40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner.eu-malta .inner button {
+        top: 22px;
+        right: -60px;
+    }
+}
+
+@media (max-width: 480px) {
+    body.banner-visible {
+        margin-top: 95px;
+    }
+    body.banner-visible header {
+        top: 95px;
+    }
+    .footer-first {
+        margin-bottom: 0;
+    }
+    .banner.eu-malta .inner a {
+        padding: 15px 0;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .banner.eu-malta.footer-banner .inner {
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .banner.eu-malta .inner a, .banner.eu-malta.footer-banner .inner a {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .banner.eu-malta .inner p {
+        flex: auto;
+    }
+    .banner.eu-malta.footer-banner .inner p {
+        padding: 0 0 10px;
+    }
+    .banner.eu-malta .inner p:first-child {
+        padding-bottom: 10px;
+    }
+    .banner.eu-malta .inner p img {
+        max-height: 25px;
+        max-width: 112px;
+        margin-bottom: 0;
+    }
+    .banner.eu-malta .inner p img:first-child {
+        margin-left: 0;
+    }
+    .banner.eu-malta .inner button {
+        top: 11px;
+        right: 0;
+    }
+}

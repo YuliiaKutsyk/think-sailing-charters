@@ -1,0 +1,117 @@
+@import "../variables";
+
+.availability-sidebar_inner {
+	border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0 8px 24px 0 rgba(0,0,0,0.08);
+    padding: 24px;
+    margin-bottom: 15px;
+    .availability-inner_thumb {
+    	height: 230px;
+    	margin-bottom: 25px;
+    	border-radius: 4px;
+    	overflow: hidden;
+    	img {
+    		width: 100%;
+    		height: 100%;
+    		object-fit: cover;
+    	}
+    }
+    .availability-inner_description {
+    	h4 {
+    		font-size: 22px;
+    		font-weight: 500;
+    		line-height: 30px;
+    		margin-bottom: 20px;
+    	}
+    	.availability-inner_details {
+    		margin-bottom: 15px;
+    		&:last-child {
+    			margin-bottom: 0;
+    		}
+    		p {
+    			font-size: 17px;
+    			line-height: 24px;
+    		}
+    		.top {
+    			font-weight: 500;
+    			color: #1F283C;
+    			margin-bottom: 4px;
+    		}
+    		.details-row {
+    			display: flex;
+    			justify-content: space-between;
+    			align-items: center;
+    			margin-bottom: 4px;
+    			&:last-child {
+	    			margin-bottom: 0;
+	    			p {
+	    				&:first-child {
+	    					color: #1F283C;
+    						font-weight: 500;
+	    				}
+	    				&:nth-child(2) {
+	    					color: #23A8CD;
+	    					font-weight: 500;
+	    				}
+	    			}
+	    		}
+    			p {
+    				&:nth-child(2) {
+    					color: #1F283C;
+    					font-weight: 500;
+    				}
+    			}
+    		}
+    	}
+    }
+    .mobile-order_title {
+    	display: none;
+    	font-size: 21px;
+    	font-weight: 500;
+    	line-height: 30px;
+    	margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+	.availability-sidebar {
+		.sidebar-message {
+			display: none;
+		}
+	}
+	.availability-sidebar_inner {
+		box-shadow: none;
+		background: transparent;
+		padding: 30px 0;
+		border-top: 2px solid #c2c2c2;
+		border-bottom: 2px solid #c2c2c2;
+		margin-bottom: 0;
+		border-radius: 0;
+		.mobile-order_title {
+			display: block;
+		}
+		.availability-inner_thumb {
+			margin-bottom: 15px;
+		}
+		.availability-inner_description {
+			h4 {
+				font-size: 18px;
+				line-height: 26px;
+				margin-bottom: 15px;
+			}
+			.availability-inner_details {
+				p {
+					font-size: 16px;
+					line-height: 23px;
+					margin-bottom: 4px;
+				}
+				.top {
+					font-size: 14px;
+					line-height: 20px;
+					margin-bottom: 4px;
+				}
+			}
+		}
+	}
+}

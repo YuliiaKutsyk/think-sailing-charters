@@ -1,0 +1,161 @@
+@import "../variables";
+
+.default-title {
+    font-size: 48px;
+    line-height: 57px;
+    margin-bottom: 15px;
+}
+
+.page-content_default {
+	p {
+		font-size: 17px;
+		line-height: 26px;
+		margin-bottom: 15px;
+	}
+	ul, ol {
+		margin: 15px 0;
+		li {
+			padding-left: 15px;
+			font-size: 17px;
+			line-height: 26px;
+			margin-bottom: 15px;
+			position: relative;
+			&:before {
+				display: block;
+				content:'';
+				width: 6px;
+				height: 6px;
+				border-radius: 50%;
+				background: #23a8cd;
+				position: absolute;
+				left: 0;
+				top: 9px;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.page-bottom_message {
+	background-color: #F6F6F6;
+	padding: 25px 60px;
+	position: relative;
+	border-radius: 4px;
+	&:before {
+		display: block;
+		content:'';
+		width: 32px;
+		height: 32px;
+		background: transparent url('../img/quote.svg') center no-repeat;
+		background-size: contain;
+		position: absolute;
+		top: 25px;
+		left: 15px;
+	}
+	h4 {
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 28px;
+		margin-bottom: 4px;
+	}
+	p {
+		font-size: 15px;
+		line-height: 22px;
+		a {
+			color: #23A8CD;
+		}
+	}
+	.message-email {
+		display: block;
+		font-size: 17px;
+		line-height: 26px;
+		color: #23A8CD;
+		margin-bottom: 2px;
+	}
+	.message-phone {
+		display: block;
+		font-size: 15px;
+		line-height: 22px;
+		color: #1F283C;
+	}
+}
+
+.sidebar-message {
+	background-color: #fff;
+	margin-bottom: 15px;
+	border-radius: 4px;
+	box-shadow: 0 8px 24px 0 rgba(0,0,0,0.08);
+	padding-left: 75px;
+	&:before {
+		width: 46px;
+		height: 46px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.sidebar-message {
+		.message-email {
+			font-size: 15px;
+		}
+		.message-phone {
+			font-size: 14px;	
+		}
+	}
+}
+
+
+@media screen and (max-width: 500px) {
+	.page-bottom_message {
+		margin-top: 15px;
+		padding: 22px 20px 22px 60px;
+		&:before {
+			top: 22px;
+		}
+		h4 {
+			font-size: 17px;
+			line-height: 25px;
+		}
+		p {
+			font-size: 14px;
+			line-height: 20px;
+		}
+	}
+	.page-content_default {
+		p {
+			font-size: 15px;
+			line-height: 22px;
+			margin-bottom: 10px;
+		}
+		ul, ol {
+			margin: 15px 0;
+			li {
+				padding-left: 15px;
+				font-size: 15px;
+				line-height: 22px;
+				margin-bottom: 10px;
+				position: relative;
+				&:before {
+					display: block;
+					content:'';
+					width: 4px;
+					height: 4px;
+					border-radius: 50%;
+					background: #23a8cd;
+					position: absolute;
+					left: 0;
+					top: 9px;
+				}
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+	.default-title {
+	    font-size: 44px;
+	    line-height: 52px;
+	    margin-bottom: 10px;
+	}
+}

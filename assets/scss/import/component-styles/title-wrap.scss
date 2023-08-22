@@ -1,0 +1,67 @@
+@import "../variables";
+
+.title-wrap {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin-bottom: 55px;
+	.title-text_wrap {
+		max-width: 570px;
+		width: 100%;
+		h4 {
+			font-size: 36px;
+			line-height: 50px;
+			margin-bottom: 8px;
+		}
+		p {
+			font-size: 17px;
+			line-height: 26px;
+		}
+	}
+}
+
+.fleets-section {
+	.title-wrap {
+		.title-text_wrap {
+			h4 {
+				color: #fff;
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.more-button {
+	display: block;
+	width: 135px;
+	font-size: 15px;
+	font-weight: 500;
+	color: #fff;
+	text-align: center;
+	padding: 15px 0;
+	background-color: #23A8CD;
+	border-radius: 12px;
+	box-shadow: 0 8px 24px 0 rgba(24,120,147,0.24);
+	&:hover {
+		color: #fff;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.title-wrap {
+		flex-direction: column;
+		margin-bottom: 25px;
+		.title-text_wrap {
+			h4 {
+				font-size: 26px;
+				margin-bottom: 5px;
+				line-height: 36px;
+			}
+			p {
+				font-size: 16px;
+				line-height: 23px;
+				margin-bottom: 15px;
+			}
+		}
+	}
+}

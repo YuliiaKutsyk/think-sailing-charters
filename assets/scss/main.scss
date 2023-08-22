@@ -1,0 +1,132 @@
+@import "import/variables";
+@import 'import/bootstrap';
+@import 'import/bootstrap-theme';
+@import 'import/owl.carousel';
+@import 'import/owl.theme.default';
+@import 'import/wordpress';
+@import 'import/component-styles/header';
+@import 'import/component-styles/main-banner';
+@import 'import/component-styles/services-section';
+@import 'import/component-styles/title-wrap';
+@import 'import/component-styles/fleets-section';
+@import 'import/component-styles/about-home-section';
+@import 'import/component-styles/reviews-section';
+@import 'import/component-styles/footer';
+@import 'import/component-styles/search-content';
+@import 'import/component-styles/page-message';
+@import 'import/component-styles/page-banner';
+@import 'import/component-styles/service-content';
+@import 'import/component-styles/page-bottom-banner';
+@import 'import/component-styles/rates-tabs';
+@import 'import/component-styles/about-gallery';
+@import 'import/component-styles/about-feautures';
+@import 'import/component-styles/about-description';
+@import 'import/component-styles/about-mission';
+@import 'import/component-styles/contacts-info';
+@import 'import/component-styles/contacts-form';
+@import 'import/component-styles/destinations';
+@import 'import/component-styles/destinations-page';
+@import 'import/component-styles/single-titles';
+@import 'import/component-styles/single-gallery';
+@import 'import/component-styles/single-info';
+@import 'import/component-styles/sidebar-order';
+@import 'import/component-styles/mobile-order-sidebar';
+@import 'import/component-styles/sucsess-page';
+@import 'import/component-styles/available-boats-section';
+@import 'import/component-styles/available-page';
+@import 'import/component-styles/availability-sidebar';
+@import 'import/component-styles/checkout';
+@import 'import/component-styles/single-product';
+@import 'import/component-styles/error-page';
+@import 'import/viewbox.sass';
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: 400;
+  line-height: $base-line-height;
+  min-width: 320px;
+  transition: $base-transition;
+  color: $base-font-color;
+  background-color: $base-background-color;
+  -webkit-font-smoothing: antialiased;
+  &.overflow {
+    overflow: hidden;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  font-size: $base-font-size;
+  line-height: $heading-line-height;
+  margin: 0;
+  color: #1F283C;
+}
+p,
+pre {
+  margin: 0;
+}
+a {
+  transition: $base-transition;
+  text-decoration: none;
+  &:active,
+  &:focus,
+  &:hover {
+    text-decoration: none;
+  }
+  &:active,
+  &:focus {
+    text-decoration: none;
+    outline: none;
+  }
+}
+ul, ol {
+  padding: 0;
+  margin: 0;
+  li {
+    list-style-type: none;
+  }
+}
+img,
+picture {
+  max-width: 100%;
+  margin: 0;
+}
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.container {
+  position: relative;
+}
+
+.flex {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.transition {
+  transition: .4s all ease-out;
+}
+
+.woocommerce-Price-currencySymbol {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .col-md-12 {
+    padding: 0 20px;
+  }
+}
+
+
+@import "fonts/font_roboto";

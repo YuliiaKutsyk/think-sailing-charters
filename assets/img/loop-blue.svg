@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>051C0F18-2463-4A76-B1A4-DB1502E71B2D</title>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-84.000000, -434.000000)">
+            <g id="Group-8" transform="translate(20.000000, 422.000000)">
+                <g id="Search" transform="translate(64.000000, 12.000000)">
+                    <polygon id="Fill-1" points="0 32 31.999 32 31.999 0.001 0 0.001"></polygon>
+                    <g id="Group-6" transform="translate(9.000000, 9.000000)" stroke="#23A8CD" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4">
+                        <path d="M11.2001,5.5974 C11.2001,8.6904 8.6931,11.1974 5.6001,11.1974 C2.5071,11.1974 0.0001,8.6904 0.0001,5.5974 C0.0001,2.5044 2.5071,-0.0026 5.6001,-0.0026 C8.6931,-0.0026 11.2001,2.5044 11.2001,5.5974 Z" id="Stroke-2"></path>
+                        <line x1="13.9999" y1="13.9973" x2="9.5599" y2="9.5573" id="Stroke-4"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

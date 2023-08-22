@@ -1,0 +1,123 @@
+$rb-font-path: '../fonts' !default;
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 100;
+  font-style: normal;
+
+  src: url('#{$rb-font-path}/Roboto-Thin.eot');
+  src: local('Roboto-Thin'),
+  local('Roboto-Thin'),
+  url('#{$rb-font-path}/Roboto-Thin.eot') format('embedded-opentype'),
+  url('#{$rb-font-path}/Roboto-Thin.ttf') format('ttf'),
+  url('#{$rb-font-path}/Roboto-Thin.woff') format('woff'),
+  url('#{$rb-font-path}/Roboto-Thin.woff2') format('woff2'),
+  url('#{$rb-font-path}/Roboto-Thin.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-style: normal;
+
+  src: url('#{$rb-font-path}/Roboto-Light.eot');
+  src: local('Roboto-Light'),
+  local('Roboto-Light'),
+  url('#{$rb-font-path}/Roboto-Light.eot') format('embedded-opentype'),
+  url('#{$rb-font-path}/Roboto-Light.ttf') format('ttf'),
+  url('#{$rb-font-path}/Roboto-Light.woff') format('woff'),
+  url('#{$rb-font-path}/Roboto-Light.woff2') format('woff2'),
+  url('#{$rb-font-path}/Roboto-Light.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+
+  src: url('#{$rb-font-path}/Roboto-Regular.eot');
+  src: local('Roboto-Regular'),
+  local('Roboto-Regular'),
+  url('#{$rb-font-path}/Roboto-Regular.eot') format('embedded-opentype'),
+  url('#{$rb-font-path}/Roboto-Regular.ttf') format('ttf'),
+  url('#{$rb-font-path}/Roboto-Regular.woff') format('woff'),
+  url('#{$rb-font-path}/Roboto-Regular.woff2') format('woff2'),
+  url('#{$rb-font-path}/Roboto-Regular.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-style: normal;
+
+  src: url('#{$rb-font-path}/Roboto-Medium.eot');
+  src: local('Roboto-Medium'),
+  local('Roboto-Medium'),
+  url('#{$rb-font-path}/Roboto-Medium.eot') format('embedded-opentype'),
+  url('#{$rb-font-path}/Roboto-Medium.ttf') format('ttf'),
+  url('#{$rb-font-path}/Roboto-Medium.woff') format('woff'),
+  url('#{$rb-font-path}/Roboto-Medium.woff2') format('woff2'),
+  url('#{$rb-font-path}/Roboto-Medium.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-style: normal;
+
+  src: url('#{$rb-font-path}/Roboto-Bold.eot');
+  src: local('Roboto-Bold'),
+  local('Roboto-Bold'),
+  url('#{$rb-font-path}/Roboto-Bold.eot') format('embedded-opentype'),
+  url('#{$rb-font-path}/Roboto-Bold.ttf') format('ttf'),
+  url('#{$rb-font-path}/Roboto-Bold.woff') format('woff'),
+  url('#{$rb-font-path}/Roboto-Bold.woff2') format('woff2'),
+  url('#{$rb-font-path}/Roboto-Bold.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-style: normal;
+
+  src: url('#{$rb-font-path}/Roboto-Black.eot');
+  src: local('Roboto-Black'),
+  local('Roboto-Black'),
+  url('#{$rb-font-path}/Roboto-Black.eot') format('embedded-opentype'),
+  url('#{$rb-font-path}/Roboto-Black.ttf') format('ttf'),
+  url('#{$rb-font-path}/Roboto-Black.woff') format('woff'),
+  url('#{$rb-font-path}/Roboto-Black.woff2') format('woff2'),
+  url('#{$rb-font-path}/Roboto-Black.svg') format('svg');
+}
+
+//Champagne Limousines
+
+@font-face {
+  font-family: 'ChampagneLimousines';
+  font-weight: 400;
+  font-style: normal;
+
+  src: url('#{$rb-font-path}/ChampagneLimousines.eot');
+  src: local('ChampagneLimousines'),
+  local('ChampagneLimousines'),
+  url('#{$rb-font-path}/ChampagneLimousines.eot') format('embedded-opentype'),
+  url('#{$rb-font-path}/ChampagneLimousines.ttf') format('ttf'),
+  url('#{$rb-font-path}/ChampagneLimousines.woff') format('woff'),
+  url('#{$rb-font-path}/ChampagneLimousines.woff2') format('woff2'),
+  url('#{$rb-font-path}/ChampagneLimousines.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'ChampagneLimousines';
+  font-weight: 700;
+  font-style: normal;
+
+  src: url('#{$rb-font-path}/ChampagneLimousines-Bold.eot');
+  src: local('ChampagneLimousines-Bold'),
+  local('ChampagneLimousines-Bold'),
+  url('#{$rb-font-path}/ChampagneLimousines-Bold.eot') format('embedded-opentype'),
+  url('#{$rb-font-path}/ChampagneLimousines-Bold.ttf') format('ttf'),
+  url('#{$rb-font-path}/ChampagneLimousines-Bold.woff') format('woff'),
+  url('#{$rb-font-path}/ChampagneLimousines-Bold.woff2') format('woff2'),
+  url('#{$rb-font-path}/ChampagneLimousines-Bold.svg') format('svg');
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>2D30796D-E033-4D05-A6F8-311EA7D90151</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-Us" transform="translate(-558.000000, -2483.000000)">
+            <g id="Mission" transform="translate(559.000000, 2484.000000)">
+                <polygon id="Fill-1" points="0 42 42 42 42 0 0 0"></polygon>
+                <polygon id="Stroke-2" stroke="#23A8CD" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" points="31.062675 12.949825 10.937675 12.949825 10.937675 0.874825 31.062675 0.874825 25.025175 6.912325"></polygon>
+                <line x1="10.937675" y1="12.949825" x2="10.937675" y2="31.062325" id="Stroke-3" stroke="#23A8CD" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round"></line>
+                <polyline id="Stroke-4" stroke="#23A8CD" stroke-width="2.45" stroke-linecap="round" stroke-linejoin="round" points="0.875175 41.125 21.000175 21 41.125175 41.125"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

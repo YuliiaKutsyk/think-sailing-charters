@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>C04E7513-25D4-46B8-90EE-9EBA53DF9F8F</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bavaria-44" transform="translate(-667.000000, -1606.000000)">
+            <g id="Medium-Shower" transform="translate(667.000000, 1606.000000)">
+                <polygon id="Fill-1" points="0 40 40 40 40 0 0 0"></polygon>
+                <g id="Group-18" transform="translate(8.500000, 5.000000)" stroke="#23A8CD" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                    <path d="M8.767125,6.38225 C9.430875,3.0985 12.333375,0.62475 15.812125,0.62475 C19.782125,0.62475 22.999625,3.8435 22.999625,7.81225 L22.999625,29.37475" id="Stroke-2"></path>
+                    <path d="M15.66225,14.999875 C16.58475,14.999875 17.25725,14.143625 17.06975,13.241125 C16.2585,9.321125 12.786,6.374875 8.62475,6.374875 C4.46475,6.374875 0.99225,9.321125 0.17975,13.241125 C-0.00775,14.143625 0.66475,14.999875 1.58725,14.999875 L15.66225,14.999875 Z" id="Stroke-4"></path>
+                    <line x1="2.874875" y1="19.312625" x2="2.874875" y2="22.187625" id="Stroke-6"></line>
+                    <line x1="2.874875" y1="26.500125" x2="2.874875" y2="29.375125" id="Stroke-8"></line>
+                    <line x1="8.547375" y1="19.312625" x2="8.547375" y2="22.187625" id="Stroke-10"></line>
+                    <line x1="8.547375" y1="26.500125" x2="8.547375" y2="29.375125" id="Stroke-12"></line>
+                    <line x1="14.22" y1="19.312625" x2="14.22" y2="22.187625" id="Stroke-14"></line>
+                    <line x1="14.22" y1="26.500125" x2="14.22" y2="29.375125" id="Stroke-16"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

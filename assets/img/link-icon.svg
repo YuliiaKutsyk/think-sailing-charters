@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>8619B506-C821-4F52-8F89-48948236AC58</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rates" transform="translate(-681.000000, -696.000000)">
+            <g id="Link" transform="translate(681.000000, 696.000000)">
+                <polygon id="Fill-1" points="0 32 32 32 32 0 0 0"></polygon>
+                <line x1="21.2551" y1="16.0009" x2="4.5001" y2="16.0009" id="Stroke-2" stroke="#23A8CD" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></line>
+                <polyline id="Stroke-3" stroke="#23A8CD" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" points="15.5056 22.0009 22.2556 16.0009 15.5056 10.0009"></polyline>
+                <path d="M6.1648,21.9633 C8.1818,25.2823 11.8318,27.5003 15.9998,27.5003 C22.3518,27.5003 27.4998,22.3513 27.4998,16.0003 C27.4998,9.6493 22.3518,4.5003 15.9998,4.5003 C11.8788,4.5003 8.2648,6.6673 6.2338,9.9243" id="Stroke-4" stroke="#A6AEBE" stroke-width="1.4" opacity="0.504610283" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

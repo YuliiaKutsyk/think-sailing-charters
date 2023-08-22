@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>2B08E3AF-FC73-40B9-9E2B-A8AB85A6C6E9</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bavaria-44" transform="translate(-135.000000, -1368.000000)">
+            <g id="Cancellation" transform="translate(135.000000, 1368.000000)">
+                <polygon id="Fill-1" points="0 32 32 32 32 0.001 0 0.001"></polygon>
+                <line x1="12.7449" y1="12.7473" x2="19.2499" y2="19.2523" id="Stroke-2" stroke="#23A8CD" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></line>
+                <line x1="19.2502" y1="12.7473" x2="12.7452" y2="19.2523" id="Stroke-3" stroke="#23A8CD" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></line>
+                <path d="M26.3547,12.5495 C26.3547,19.2835 22.2347,25.0545 16.4347,27.3375 C16.1607,27.4455 15.8487,27.4455 15.5747,27.3385 C9.7637,25.0555 5.6547,19.2845 5.6547,12.5495 C5.6547,12.0895 5.6777,11.6295 5.7117,11.1805 C8.0237,10.9395 9.8297,8.9845 9.8297,6.6035 C9.8297,6.6035 12.1357,5.6495 16.0047,5.6495 C19.8737,5.6495 22.1807,6.6035 22.1807,6.6035 C22.1807,8.9845 23.9857,10.9395 26.2967,11.1805 C26.3317,11.6295 26.3547,12.0895 26.3547,12.5495 Z" id="Stroke-4" stroke="#23A8CD" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

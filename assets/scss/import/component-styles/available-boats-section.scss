@@ -1,0 +1,100 @@
+@import "../variables";
+
+.charter-boats_title {
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+.charter-boats_wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.charter-boats-item {
+	width: 31.8%;
+	margin-right: 15px;
+	margin-bottom: 25px;
+	&:nth-child(3n) {
+		margin-right: 0;
+	}
+	.thumb-wrap {
+		display: block;
+		height: 185px;
+		margin-bottom: 15px;
+		border-radius: 4px;
+		overflow: hidden;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+	.description-wrap {
+		h4 {
+			a {
+				font-size: 18px;
+				font-weight: 500;
+				line-height: 28px;
+				color: #1F283C;
+				margin-bottom: 15px;
+			}
+		}
+		.rate-rows {
+			p {
+				display: block;
+				font-size: 15px;
+				line-height: 22px;
+				color: #23A8CD;
+			}
+		}
+		.people-count {
+			display: block;
+			font-size: 15px;
+			line-height: 22px;
+		}
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.charter-boats-item {
+		width: 31.7%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.charter-boats_wrap {
+		justify-content: space-between;
+	}
+	.charter-boats_title {
+		font-size: 21px;
+		line-height: 30px;
+	}
+	.charter-boats-item {
+		width: 48%;
+		margin-right: 0;
+		.thumb-wrap {
+			height: 140px;
+			margin-bottom: 10px;
+		}
+		.description-wrap {
+			h4 {
+				a {
+					font-size: 16px;
+					line-height: 26px;
+				}
+			}
+			.rate-rows {
+				p {
+					font-size: 14px;
+					line-height: 20px;
+				}
+			}
+			.people-count {
+				font-size: 14px;
+				line-height: 20px;
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>CDF02EFE-D574-4531-9142-2D06A22C078A</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-899.000000, -417.000000)">
+            <g id="Boat-Type" transform="translate(899.000000, 417.000000)">
+                <polygon id="Fill-1" points="0 32 32 32 32 0.001 0 0.001"></polygon>
+                <g id="Group-8" transform="translate(5.000000, 5.000000)" stroke="#23A8CD" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4">
+                    <path d="M20.8406,13.2999 L1.1596,13.2999 C0.3566,13.2999 -0.1994,14.1019 0.0826,14.8539 L2.6706,21.7539 C2.8386,22.2029 3.2676,22.4999 3.7466,22.4999 L18.2536,22.4999 C18.7326,22.4999 19.1616,22.2029 19.3296,21.7539 L21.9176,14.8539 C22.1996,14.1019 21.6436,13.2999 20.8406,13.2999 Z" id="Stroke-2"></path>
+                    <line x1="1.2249" y1="17.9" x2="20.7749" y2="17.9" id="Stroke-4"></line>
+                    <path d="M11.0002,9.8512 L19.2922,5.7052 C20.1402,5.2812 20.1402,4.0712 19.2922,3.6472 L12.6642,0.3332 C11.8992,-0.0488 11.0002,0.5072 11.0002,1.3622 L11.0002,13.3002" id="Stroke-6"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
